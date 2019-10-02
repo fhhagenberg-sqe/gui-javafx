@@ -6,9 +6,8 @@ The objective of this exercise is to experiment with graphical user interfaces a
 
 Develop a Java-Application named _Triangle1st_ containing a graphical user interface based on [JavaFx](https://openjfx.io/), which calculates the **perimeter** and the **area** of a triangle. Figure 1 shows one way the user interface may look like; however you are free to implement your ideas.
 
+![Proposal for Triangle1st](triangle1st.png)
 Figure 1: Proposal for designing the user interface layout.
-
-<INSERT FIGURE HERE>
 
 ### Prerequisites
 
