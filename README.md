@@ -50,6 +50,17 @@ Please keep in mind:
 - Create a useful layout that keeps intact if the application is resized. 
 - The application should contain a button to close the window.
 - Add a comment at the beginning of every source code file containing your full name(s) and your student ID number(s).
+- To start your application, type `mvn javafx:run`.
+
+Java libraries and applications are stored in JAR archive files (Java archive). Create a JAR file `triangle1st-0.0.1.jar` from your project containing the executable binaries (class files) and the necessary resources.
+
+You can build your project with maven with
+
+```
+mvn clean package
+```
+
+The resulting archive (`.jar` file) is in the `target` directory.
 
 ### Submission
 
@@ -77,13 +88,13 @@ When you're done...
 - [x] upload the [link to your release][GitHub linking to releases] on the e-learning platform until the specified date and time before the next lecture.
 - [x] Only complete submissions adhering to all of the above requirements are considered. Late submissions, submissions via email or submissions failing to meet the specified requirements will not be accepted.
 
-## Externalization of text messages _(1 point)_
+## Externalization of text messages _(2 points)_
 
 Java provides mechanisms for externalization/internationalization of applications, i.e., text messages and labels are not stored as constants in the code but in separate property files that can be translated into different languages without changing the code that uses them.
 
 ### Instructions
 
-In order to support language-independent applications all strings have to be replaced by symbolic names. The connection between the symbolic names and the actual text messages and labels is maintained by an object of the class ResourceBundle. 
+In order to support language-independent applications all strings have to be replaced by symbolic names. The connection between the symbolic names and the actual text messages and labels is maintained by an object of the class `ResourceBundle`. 
 
 All major IDEs (e.g. Eclipse, IntelliJ) support internationalization of text messages. Search for '<name-of-your-IDE> externalize strings' to find out how to do it. You should end up having all strings replaced by method calls that use a symbolic name to look up the appropriate translated string in a properties file like `messages.properties`.
 
@@ -95,18 +106,6 @@ When you're done...
 - [x] on GitHub, [create a release][GitHub creating releases] with version `v0.3`.
 - [x] upload the [link to your release][GitHub linking to releases] on the e-learning platform until the specified date and time before the next lecture.
 - [x] Only complete submissions adhering to all of the above requirements are considered. Late submissions, submissions via email or submissions failing to meet the specified requirements will not be accepted.
-
-## Create a JAR file _(1 point)_
-
-Java libraries and applications are stored in JAR archive files (Java archive). Create a JAR file `triangle1st-0.0.1.jar` from your project containing the executable binaries (class files) and the necessary resources.
-
-You can build your project with maven with
-
-```
-mvn clean package
-```
-
-The resulting archive (`.jar` file) is in the `target` directory.
 
 ##	Documentation using JavaDoc _(1 point)_
 
@@ -133,6 +132,8 @@ When you're done...
 - [x] Only complete submissions adhering to all of the above requirements are considered. Late submissions, submissions via email or submissions failing to meet the specified requirements will not be accepted.
 
 ## Test Cases _(2 points)_
+
+### Instructions
 
 Consider what input should be used to test the application `Triangle1st`. Create a table containing the columns a, b and c for input parameter and an additional column result to document the expected results. Have at least 10 test cases (i.e., rows in the table), which you store in the file `/src/test/TestCases.md`. Use markdown syntax, e.g.:
 
