@@ -117,7 +117,7 @@ The tool JavaDoc generates documentation in HTML format from source code comment
 - generate HTML documentation with
 
 ```
-mvn javadoc:javadoc
+mvn compile javadoc:javadoc
 ```
 
 _Hint: The result can be found in `target\site\apidocs`. (open `index.hml` in your browser.)_
