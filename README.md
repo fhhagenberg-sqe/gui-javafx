@@ -76,7 +76,7 @@ When you're done...
 ### Instructions
 
 Use exception handling or related approaches to make sure that no exceptions will be raised in case of invalid inputs, e.g., non-numerical characters. 
-- React on _non-numerical inputs_ by showing an error message, for example by opening a dialog (see [JavaFX Alert](https://openjfx.io/javadoc/13/javafx.controls/javafx/scene/control/Alert.html)). Hint: It is sufficient to check the input when the button _Calc!_ is clicked.
+- React on _non-numerical inputs_ by showing an error message, for example by opening a dialog (see [JavaFX Alert](https://openjfx.io/javadoc/15/javafx.controls/javafx/scene/control/Alert.html)). Hint: It is sufficient to check the input when the button _Calc!_ is clicked.
 - Catch also other exceptions and react by displaying the exceptions’ message as error description.
 
 ### Submission
